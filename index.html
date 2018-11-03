@@ -2,12 +2,12 @@
 <html lang="en">
   <head>
   	<!-- use triple mustache for non-HTML-escaped interpolation -->
-  	{{ meta }}
+  	{{{ meta }}}
   	<!-- use double mustache for HTML-escaped interpolation -->
     <title>{{ title }}</title>
   </head>
   <body>
   	<!--vue-ssr-outlet-->
-    <script src="/dist/build.js"></script>
+    <script src="dist/build.js"></script>
   </body>
 </html>

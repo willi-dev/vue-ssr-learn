@@ -11,7 +11,7 @@ export function createApp() {
 	const app = new Vue({
 		router, 
 		// the root instance simply renders the App component 
-		render: h => h(app)
+		render: h => h(App)
 	});
 
 	return { app, router };
