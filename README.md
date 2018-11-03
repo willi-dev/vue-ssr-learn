@@ -1,6 +1,7 @@
 # vue-ssr
 
 > learning vue js & server side rendering
+> reference: https://vuejsdevelopers.com/2017/12/11/vue-ssr-router/
 
 ## Build Setup
 
